@@ -1,0 +1,6 @@
+import random
+s = random.uniform(0,9999999999999)
+for q in range(999999999999):
+   print(int(s))
+# machine for numbers of phone to do
+
