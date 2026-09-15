@@ -1,0 +1,23 @@
+import random
+import time
+class all_of_that_class_game:
+    def fool_play_function(self):
+        while True:
+            time.sleep(1.56)
+            list1 = ["🧃","🍒","🍭"]
+            varblue_play = random.choices(list1,k = 3)
+            varblue1 = ["🍭","🍭","🍭"]
+            varblue2 = ["🍒","🍒","🍒"]
+            varblue3 = ["🧃","🧃","🧃"]
+            if varblue_play == varblue1 or varblue_play == varblue2 or varblue_play == varblue3:
+                print("you win bro 👍")
+            else:
+                print("you lose")
+            print(varblue_play)
+class_of_gameplay = all_of_that_class_game()
+input1_for_play = input("hello you want play yes:or:No ")
+if input1_for_play == "yes" or (input1_for_play).upper or input1_for_play == "yay" or input1_for_play == "YA" or input1_for_play == "ok" or input1_for_play == ("ok").upper:
+    class_of_gameplay.fool_play_function()
+else:
+    print("ok")
+#game of choices in python
