@@ -1,0 +1,20 @@
+
+try:
+    print("metal fr(iron)")
+    print("")
+    print("")
+    print("")
+    print(" density")
+    a = float(input("enter "))
+    print("length")
+    q = float(input("enter "))/100
+    print("wide")
+    e= float(input("enter "))/100
+    gr= q * e* 0.01
+    kh=a * gr 
+    Moh=kh * 1000
+    im=55.845/Moh
+    pp=10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10*10
+    print(im*6.022*pp)
+except:
+    print("Error")
