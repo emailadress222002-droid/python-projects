@@ -1,0 +1,19 @@
+try:
+    va = input("inpu1 ")
+    va1 = int(input("input 2 "))
+    if va == "usa" or va == "USA" or va == "U" or va == "dollor" or va == "u":
+        print("this jordan dollor in usa",int(va1) * 0.71)
+    elif va == "wen" or va == 'japan' or va =="J" or va == "j":
+        print("this is in wen or japaness",int(va1) * 200.85)
+    elif va=="I"or va == "iraq" or va == "i":
+        print("this is in iraq",va1 * 181.055)
+    elif va== "yemeni" or va == "yemeni".upper() or va == "y"or va == "Y":
+        print("this is in yemeni",va1*5.23)
+    elif va == "e" or va == "E" or va == "egypt"or va == "egypt".upper():
+        print("this is in egypt",va1* 71.41)
+    elif va == "Euro"or va == "Euro".upper() or va == "Er"or va == "er":
+        print("this in euro",1.24*va1)
+    else:
+        print("WHY")
+except:
+    print("wrong ")
